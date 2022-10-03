@@ -1,8 +1,10 @@
 package br.com.cidandrade.aulas;
 
+import java.math.BigDecimal;
+
 /**
  * Classe para demonstração de uso de variáveis e tipos de dados
- * 
+ *
  * @author cidandrade
  */
 public class SerHumano {
@@ -17,6 +19,7 @@ public class SerHumano {
     boolean portadorNecessidadesEspeciais;
     char inicial;
     String nome;
+    BigDecimal heranca;
 
     // Atributos estáticos
     double populacao = 0;
@@ -32,6 +35,7 @@ public class SerHumano {
         inicial = '\u0041';
         nome = "Asdrúbal";
         populacao = 7.9e9;
+        heranca = new BigDecimal("1234567");
     }
 
     void alteraIdade() {
