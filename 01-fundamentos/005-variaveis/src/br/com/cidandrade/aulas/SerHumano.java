@@ -1,7 +1,8 @@
 package br.com.cidandrade.aulas;
 
 /**
- *
+ * Classe para demonstração de uso de variáveis e tipos de dados
+ * 
  * @author cidandrade
  */
 public class SerHumano {
