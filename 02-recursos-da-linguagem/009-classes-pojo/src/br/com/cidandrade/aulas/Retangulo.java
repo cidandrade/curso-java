@@ -1,7 +1,5 @@
 package br.com.cidandrade.aulas;
 
-import java.text.DecimalFormat;
-
 /**
  *
  * @author cidandrade
@@ -9,8 +7,6 @@ import java.text.DecimalFormat;
 public class Retangulo extends FormaGeometrica {
 
     private double base, altura;
-    private final DecimalFormat FORMATADOR
-            = new DecimalFormat("#,##0.00");
 
     @Override
     public double getArea() {
