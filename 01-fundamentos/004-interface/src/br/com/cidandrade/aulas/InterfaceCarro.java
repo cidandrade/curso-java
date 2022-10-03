@@ -1,7 +1,8 @@
 package br.com.cidandrade.aulas;
 
 /**
- *
+ * Interface com métodos que devem ser implementados 
+ * 
  * @author cidandrade
  */
 public interface InterfaceCarro {
