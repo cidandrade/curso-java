@@ -1,5 +1,7 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.util.Mensagem;
+
 public class StringsApp {
 
     public static void main(String[] args) {
@@ -9,54 +11,59 @@ public class StringsApp {
         int a = 1024;
         float b = 3.14F;
         String[] palavras;
+        StringBuilder sb;
 
-        System.out.println("A 8a letra é " + frase.charAt(7));
+        Mensagem.mensagem("A 8a letra é " + frase.charAt(7));
 
         if (frase.compareTo(outraFrase) < 0) {
-            System.out.println("'" + frase
+            Mensagem.mensagem("'" + frase
                     + "' vem antes na ordem alfabética");
         } else {
-            System.out.println("'" + outraFrase
+            Mensagem.mensagem("'" + outraFrase
                     + "' vem antes na ordem alfabética");
         }
 
         if (frase.contains("X")) {
-            System.out.println("Frase contém um 'X'");
+            Mensagem.mensagem("Frase contém um 'X'");
         }
 
         if (frase.equals(outraFrase)) {
-            System.out.println("Frases são iguais");
+            Mensagem.mensagem("Frases são iguais");
         }
 
-        System.out.println(fruta.replace('e', 'a'));
+        Mensagem.mensagem(fruta.replace('e', 'a'));
 
-        System.out.println(frase.substring(10, 18));
+        Mensagem.mensagem(frase.substring(10, 18));
 
-        System.out.println(frase.toUpperCase());
+        Mensagem.mensagem(frase.toUpperCase());
 
-        System.out.println(frase.toLowerCase());
+        Mensagem.mensagem(frase.toLowerCase());
 
-        System.out.println(String.valueOf(b)
+        Mensagem.mensagem(String.valueOf(b)
                 .replace('.', ','));
 
-        System.out.println(a + quatro);
-        System.out.println(quatro + a);
-        System.out.println(a + Integer.parseInt(quatro));
+        Mensagem.mensagem(a + quatro);
+        Mensagem.mensagem(quatro + a);
+        Mensagem.mensagem(a + Integer.parseInt(quatro));
 
-        System.out.println(String.format("%s: %d e %.3f",
+        Mensagem.mensagem(String.format("%s: %d e %.3f",
                 numeros, a, b));
 
-        System.out.println(String.format(
+        Mensagem.mensagem(String.format(
                 "\"%s\" tem %d letras", frase, frase.length()));
 
-        System.out.println(String.format(
+        Mensagem.mensagem(String.format(
                 "Última posição de 'p': %d",
                 frase.lastIndexOf('p')));
 
         palavras = frase.split(" ");
+        sb = new StringBuilder();
         for (String palavra : palavras) {
-            System.out.println(palavra);
+            Mensagem.mensagem(palavra);
+            sb.append(palavra).append(" ");
         }
+        Mensagem.mensagem(sb);
+        System.exit(0);
     }
 
 }
