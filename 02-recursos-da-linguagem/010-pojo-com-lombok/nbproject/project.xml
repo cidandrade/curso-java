@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>008_PojoComLombok</name>
+            <name>010_PojoComLombok</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
