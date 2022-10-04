@@ -1,5 +1,7 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.util.Mensagem;
+
 public class OlaMundoAnonimo {
 
     interface OlaMundo {
@@ -22,7 +24,7 @@ public class OlaMundoAnonimo {
             @Override
             public void cumprimentarAlguem(String alguem) {
                 this.alguem = alguem;
-                System.out.println("Hello, " + this.alguem);
+                Mensagem.mensagem("Hello, " + this.alguem);
             }
 
         }
@@ -38,7 +40,7 @@ public class OlaMundoAnonimo {
             @Override
             public void cumprimentarAlguem(String alguem) {
                 this.alguem = alguem;
-                System.out.println("Salut, " + this.alguem);
+                Mensagem.mensagem("Salut, " + this.alguem);
             }
         };
         cumprimentoEmIngles.cumprimentar();

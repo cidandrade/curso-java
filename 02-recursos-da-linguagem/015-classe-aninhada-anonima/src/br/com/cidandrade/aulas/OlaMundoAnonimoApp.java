@@ -5,6 +5,7 @@ public class OlaMundoAnonimoApp {
     public static void main(String[] args) {
         OlaMundoAnonimo olaMundo = new OlaMundoAnonimo();
         olaMundo.digaOla();
+        System.exit(0);
     }
 
 }
