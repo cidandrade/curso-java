@@ -12,6 +12,14 @@ public class Mensagem {
         JOptionPane.showMessageDialog(null, msg);
     }
 
+    public static void mensagem(int msg) {
+        JOptionPane.showMessageDialog(null, msg);
+    }
+
+    public static void mensagem(StringBuilder sb) {
+        JOptionPane.showMessageDialog(null, sb);
+    }
+
     public static void msgErro(String msg) {
         JOptionPane.showMessageDialog(null,
                 msg, "ERRO",
