@@ -37,8 +37,11 @@ public class Carro {
 
         @Override
         public String toString() {
-            return String.format("Motor %.1f %s",
-                    cilindradas,
+            String cilindradasString = String.format(
+                    "%.1f", cilindradas)
+                    .replace(',', '.');
+            return String.format("Motor %s %s",
+                    cilindradasString,
                     (acelerando ? "acelerando" : "marcha lenta"));
         }
 
