@@ -1,8 +1,10 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.util.Mensagem;
+
 public class ValidaTelefone {
 
-    static String expressao = "[^0-9]";
+    static final String EXPRESSAO = "[^0-9]";
 
     public static void validarTelefone(String telefone) {
         final int COMPRIMENTO = 9;
@@ -15,7 +17,7 @@ public class ValidaTelefone {
             public NumeroDeTelefone(String numeroDeTelefone) {
                 String numeroCorrente
                         = numeroDeTelefone.replaceAll(
-                                expressao, "");
+                                EXPRESSAO, "");
                 telefoneFormatado = (numeroCorrente.length() == COMPRIMENTO
                         ? numeroCorrente : null);
             }
@@ -28,9 +30,9 @@ public class ValidaTelefone {
         NumeroDeTelefone numero
                 = new NumeroDeTelefone(telefone);
         if (numero.getTelefoneFormatado() == null) {
-            System.out.println("Telefone inválido");
+            Mensagem.msgErro("Telefone inválido");
         } else {
-            System.out.println("Telefone é " + numero.getTelefoneFormatado());
+            Mensagem.mensagem("Telefone é " + numero.getTelefoneFormatado());
         }
     }
 }
