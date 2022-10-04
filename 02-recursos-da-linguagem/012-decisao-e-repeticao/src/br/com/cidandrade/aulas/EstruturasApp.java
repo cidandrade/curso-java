@@ -1,5 +1,7 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.util.Mensagem;
+
 /**
  * Estruturas de decisão e repetição
  *
@@ -14,11 +16,11 @@ public class EstruturasApp {
         String frase = "Pimenta preta no picles é a preferida do Pedro";
 
         if (teste < comparador) {
-            System.out.println("Teste é menor");
+            Mensagem.mensagem("Teste é menor");
         } else if (teste > comparador) {
-            System.out.println("Teste é maior");
+            Mensagem.mensagem("Teste é maior");
         } else {
-            System.out.println("São iguais");
+            Mensagem.mensagem("São iguais");
         }
 
         nota = (teste < comparador ? (byte) 3 : (byte) 7);
@@ -48,33 +50,34 @@ public class EstruturasApp {
             default:
                 conceito = '?';
         }
-        System.out.println("Nota " + nota + " / Conceito " + conceito);
+        Mensagem.mensagem("Nota " + nota + " / Conceito " + conceito);
 
         contador = 1;
         while (contador <= 10) {
-            System.out.println(contador++);
+            Mensagem.mensagem(contador++);
         }
 
         contador = 1;
         do {
-            System.out.println(contador++);
+            Mensagem.mensagem(contador++);
         } while (contador <= 10);
 
         for (contador = 1; contador <= 10; contador++) {
-            System.out.println(contador);
+            Mensagem.mensagem(contador);
         }
 
         contador = 1;
         for (;;) {
-            System.out.println(contador++);
+            Mensagem.mensagem(contador++);
             if (contador > 10) {
                 break;
             }
         }
 
         for (byte valor : vetor) {
-            System.out.println(valor);
+            Mensagem.mensagem(valor);
         }
+        
 
         qtdeDeP = 0;
         for (contador = 0; contador < frase.length(); contador++) {
@@ -83,6 +86,6 @@ public class EstruturasApp {
             }
             qtdeDeP++;
         }
-        System.out.println("Achei " + qtdeDeP + " letras 'p' na frase");
+        Mensagem.mensagem("Achei " + qtdeDeP + " letras 'p' na frase");
     }
 }
