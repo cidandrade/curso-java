@@ -15,4 +15,8 @@ public class Entrada {
     public static Float getFloat(String msg) throws NumberFormatException {
         return Float.valueOf(getString(msg).replace(',', '.'));
     }
+
+    public static Long getLong(String msg) throws NumberFormatException {
+        return Long.valueOf(getString(msg));
+    }
 }
