@@ -20,6 +20,10 @@ public class Mensagem {
         JOptionPane.showMessageDialog(null, sb);
     }
 
+    public static void mensagem(Object o) {
+        JOptionPane.showMessageDialog(null, o);
+    }
+
     public static void msgErro(String msg) {
         JOptionPane.showMessageDialog(null,
                 msg, "ERRO",
