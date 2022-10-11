@@ -1,16 +1,20 @@
 package br.com.cidandrade.aulas;
 
-public class Hamburguer {
+public class Hamburguer implements Cloneable {
 
     private final byte carnes;
     private final TamanhoCarne tamanho;
     private final boolean queijoPrato, queijoBrie, presunto, ovo,
             bacon, alface, rucula, agriao, tomate;
 
-    public Hamburguer clonagem() {
+    @Override
+    public Hamburguer clone() {
         return this;
     }
 
+//    public Hamburguer clonagem() {
+//        return this;
+//    }
     private Hamburguer(Construtor construtor) {
         super();
         this.carnes = construtor.carnes;

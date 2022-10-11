@@ -18,7 +18,7 @@ public class ParaisoApp {
                 .rucula()
                 .ovo()
                 .construir();
-        Hamburguer h3 = h2.clonagem();
+        Hamburguer h3 = h2.clone();
         Pedido p = new Pedido()
                 .para("Cid")
                 .com(h1)
