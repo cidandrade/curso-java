@@ -29,4 +29,11 @@ public class Mensagem {
                 msg, "ERRO",
                 JOptionPane.ERROR_MESSAGE);
     }
+
+    public static void msgErro(String msg, Exception e) {
+        JOptionPane.showMessageDialog(null,
+                String.format("%s\n%s",
+                        msg, e.getLocalizedMessage()),
+                "ERRO", JOptionPane.ERROR_MESSAGE);
+    }
 }
