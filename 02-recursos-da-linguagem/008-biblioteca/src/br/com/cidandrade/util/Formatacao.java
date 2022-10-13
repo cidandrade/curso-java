@@ -2,13 +2,15 @@ package br.com.cidandrade.util;
 
 import java.text.DecimalFormat;
 
-/**
- *
- * @author cidandrade
- */
 public class Formatacao {
 
-    public static DecimalFormat formatadorDecimal() {
-        return new DecimalFormat("#,##0.00");
+    private static final String PADRAO_DEC = "#,##0.00";
+
+    public static String formDecimal(double num) {
+        return new DecimalFormat(PADRAO_DEC).format(num);
+    }
+
+    public static String formDecimal(float num) {
+        return new DecimalFormat(PADRAO_DEC).format(num);
     }
 }
