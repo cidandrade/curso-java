@@ -1,5 +1,7 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.util.Formatacao;
+
 /**
  *
  * @author cidandrade
@@ -15,7 +17,8 @@ public class Retangulo extends FormaGeometrica {
 
     @Override
     public String getDescricao() {
-        return toString() + " / Área: " + FORMATADOR.format(getArea());
+        return toString() + " / Área: "
+                + Formatacao.formDecimal(getArea());
     }
 
     public Retangulo() {
@@ -69,8 +72,8 @@ public class Retangulo extends FormaGeometrica {
 
     @Override
     public String toString() {
-        String baseFormatada = FORMATADOR.format(base);
-        String alturaFormatada = FORMATADOR.format(altura);
+        String baseFormatada = Formatacao.formDecimal(base);
+        String alturaFormatada = Formatacao.formDecimal(altura);
         return "Retângulo com base de " + baseFormatada
                 + " e altura de " + alturaFormatada;
     }

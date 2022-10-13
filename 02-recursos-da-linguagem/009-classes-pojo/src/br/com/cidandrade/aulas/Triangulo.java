@@ -1,5 +1,7 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.util.Formatacao;
+
 public class Triangulo extends FormaGeometrica {
 
     private double base, altura;
@@ -11,7 +13,8 @@ public class Triangulo extends FormaGeometrica {
 
     @Override
     public String getDescricao() {
-        return toString() + " / Área: " + FORMATADOR.format(getArea());
+        return toString() + " / Área: " 
+                + Formatacao.formDecimal(getArea());
     }
 
     public Triangulo() {
@@ -67,8 +70,8 @@ public class Triangulo extends FormaGeometrica {
 
     @Override
     public String toString() {
-        String baseFormatada = FORMATADOR.format(base);
-        String alturaFormatada = FORMATADOR.format(altura);
+        String baseFormatada = Formatacao.formDecimal(base);
+        String alturaFormatada = Formatacao.formDecimal(altura);
         return "Triângulo com base de " + baseFormatada
                 + " e altura de " + alturaFormatada;
     }
