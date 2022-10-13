@@ -19,12 +19,10 @@ public class PojoApp {
 
             Triangulo triangulo = new Triangulo(medida1, medida2);
             Retangulo retangulo = new Retangulo(medida1, medida2);
-
-            System.out.println(triangulo.getDescricao());
-            System.out.println(retangulo.getDescricao());
+            Mensagem.mensagem(triangulo.getDescricao());
+            Mensagem.mensagem(retangulo.getDescricao());
         } catch (NumberFormatException e) {
-            Mensagem.msgErro("Erro na entrada de dados.\n"
-                    + e.getLocalizedMessage());
+            Mensagem.msgErro("Erro na entrada de dados.", e);
         } finally {
             System.exit(0);
         }
