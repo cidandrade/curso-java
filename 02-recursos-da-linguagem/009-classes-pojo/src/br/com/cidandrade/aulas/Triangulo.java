@@ -1,6 +1,5 @@
 package br.com.cidandrade.aulas;
 
-
 public class Triangulo extends FormaGeometrica {
 
     private double base, altura;
