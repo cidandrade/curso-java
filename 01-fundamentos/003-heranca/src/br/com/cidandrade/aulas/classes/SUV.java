@@ -1,9 +1,8 @@
-package br.com.cidandrade.aulas;
+package br.com.cidandrade.aulas.classes;
 
 /**
  * Esta classe demonstra uma herança
- * 
- * @author cidandrade
+ *
  */
 public class SUV extends Carro {
 

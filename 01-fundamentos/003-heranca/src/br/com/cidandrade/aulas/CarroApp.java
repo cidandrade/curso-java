@@ -1,40 +1,44 @@
 package br.com.cidandrade.aulas;
 
+import br.com.cidandrade.aulas.classes.Carro;
+import br.com.cidandrade.aulas.classes.SUV;
+
 /**
- * Esta classe implementa uma aplicação de exemplo sobre classes
+ * Aplicação de exemplo sobre classes
  *
- * @author cidandrade
+ * @author profandrade@gmail.com
+ * @version 1.0.22.10.17 Definitiva
  */
 public class CarroApp {
 
     public static void main(String[] args) {
         Carro carro1 = new Carro();
-        carro1.mudaMarcha(1);
-        carro1.aumentaVelocidade(10);
-        carro1.mudaMarcha(2);
-        carro1.aumentaVelocidade(20);
-        carro1.mudaMarcha(3);
-        carro1.aumentaVelocidade(30);
-        carro1.mudaMarcha(4);
-        carro1.aumentaVelocidade(30);
-        carro1.freia(10);
-        carro1.mudaMarcha(5);
-        carro1.aumentaVelocidade(40);
-        carro1.imprimeEstadoDoCarro();
+        carro1.mudarMarcha(1);
+        carro1.aumentarVelocidade(10);
+        carro1.mudarMarcha(2);
+        carro1.aumentarVelocidade(20);
+        carro1.mudarMarcha(3);
+        carro1.aumentarVelocidade(30);
+        carro1.mudarMarcha(4);
+        carro1.aumentarVelocidade(30);
+        carro1.frear(10);
+        carro1.mudarMarcha(5);
+        carro1.aumentarVelocidade(40);
+        carro1.imprimirEstadoDoCarro();
 
         SUV suv1 = new SUV();
-        suv1.mudaMarcha(1);
-        suv1.aumentaVelocidade(10);
-        suv1.mudaMarcha(2);
-        suv1.aumentaVelocidade(25);
-        suv1.mudaMarcha(3);
-        suv1.aumentaVelocidade(30);
-        suv1.mudaMarcha(4);
-        suv1.aumentaVelocidade(40);
-        suv1.freia(5);
-        suv1.mudaMarcha(5);
-        suv1.aumentaVelocidade(40);
-        suv1.imprimeEstadoDoCarro();
+        suv1.mudarMarcha(1);
+        suv1.aumentarVelocidade(10);
+        suv1.mudarMarcha(2);
+        suv1.aumentarVelocidade(25);
+        suv1.mudarMarcha(3);
+        suv1.aumentarVelocidade(30);
+        suv1.mudarMarcha(4);
+        suv1.aumentarVelocidade(40);
+        suv1.frear(5);
+        suv1.mudarMarcha(5);
+        suv1.aumentarVelocidade(40);
+        suv1.imprimirEstadoDoCarro();
     }
 
 }
