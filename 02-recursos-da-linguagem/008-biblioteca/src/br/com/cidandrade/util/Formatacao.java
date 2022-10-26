@@ -13,4 +13,14 @@ public class Formatacao {
     public static String formDecimal(float num) {
         return new DecimalFormat(PADRAO_DEC).format(num);
     }
+
+    public static String formDecimalComPonto(double num) {
+        return new DecimalFormat(PADRAO_DEC)
+                .format(num).replace(",", ".");
+    }
+
+    public static String formDecimalComPonto(float num) {
+        return new DecimalFormat(PADRAO_DEC)
+                .format(num).replace(",", ".");
+    }
 }

@@ -3,7 +3,9 @@ package br.com.cidandrade.util;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.Period;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 /**
  *
@@ -12,6 +14,16 @@ import java.time.format.DateTimeFormatter;
 public class Data {
 
     private static final String PADRAO_DE_DATA = "dd/MM/yyyy";
+    private static final String PADRAO_DE_DATA_SQL = "yyyy-MM-dd";
+
+    public static LocalDate dateToLocalDate(Date data) {
+        return data.toInstant().atZone(
+                ZoneId.systemDefault()).toLocalDate();
+    }
+
+    public static LocalDate dateToLocalDate(java.sql.Date data) {
+        return data.toLocalDate();
+    }
 
     public static String dataFormatada() {
         return getAgora().format(
@@ -21,6 +33,16 @@ public class Data {
     public static String dataFormatada(int dia, int mes, int ano) {
         return getLocalDate(dia, mes, ano).format(
                 DateTimeFormatter.ofPattern(PADRAO_DE_DATA));
+    }
+
+    public static String dataFormatadaSQL(Date data) {
+        return dateToLocalDate(data).format(
+                DateTimeFormatter.ofPattern(PADRAO_DE_DATA_SQL));
+    }
+
+    public static String dataFormatadaSQL(java.sql.Date data) {
+        return dateToLocalDate(data).format(
+                DateTimeFormatter.ofPattern(PADRAO_DE_DATA_SQL));
     }
 
     public static LocalDate getAgora() {

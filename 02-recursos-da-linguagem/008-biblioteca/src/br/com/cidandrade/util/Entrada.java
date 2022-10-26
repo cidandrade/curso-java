@@ -23,4 +23,11 @@ public class Entrada {
     public static Long getLong(String msg) throws NumberFormatException {
         return Long.valueOf(getString(msg));
     }
+
+    public static boolean confirma(String msg) {
+        int resp = JOptionPane.showConfirmDialog(null, 
+                msg, "Confirmação", 
+                JOptionPane.YES_NO_OPTION);
+        return (resp == JOptionPane.YES_OPTION);
+    }
 }
