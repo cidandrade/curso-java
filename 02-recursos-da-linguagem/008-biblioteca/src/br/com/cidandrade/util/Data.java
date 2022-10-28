@@ -35,6 +35,11 @@ public class Data {
                 DateTimeFormatter.ofPattern(PADRAO_DE_DATA));
     }
 
+    public static String dataFormatada(LocalDate data) {
+        return data.format(
+                DateTimeFormatter.ofPattern(PADRAO_DE_DATA));
+    }
+
     public static String dataFormatadaSQL(Date data) {
         return dateToLocalDate(data).format(
                 DateTimeFormatter.ofPattern(PADRAO_DE_DATA_SQL));

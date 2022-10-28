@@ -1,8 +1,13 @@
 package br.com.cidandrade.util;
 
 import java.math.BigDecimal;
+import java.nio.charset.StandardCharsets;
 
 public class Conv {
+
+    public static String byteArrayToString(byte[] b) {
+        return new String(b, StandardCharsets.UTF_8);
+    }
 
     public static BigDecimal objectToBigDecimal(Object o) {
         return (BigDecimal) o;
@@ -43,6 +48,10 @@ public class Conv {
 
     public static String previneStringNulo(String s) {
         return (s == null ? "" : s.trim());
+    }
+
+    public static byte[] stringToByteArray(String s) {
+        return s.getBytes();
     }
 
 }
