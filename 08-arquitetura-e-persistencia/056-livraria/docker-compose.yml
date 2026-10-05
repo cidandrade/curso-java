@@ -1,0 +1,21 @@
+# MySQL 8 para a aula 056 - Livraria
+# Uso: docker compose up -d   (na pasta 056-livraria)
+# Usuário e senha iguais aos fixos em BD.java.
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: livraria-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: livraria
+      MYSQL_USER: cidandrade
+      MYSQL_PASSWORD: "123456"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      # via TCP: o servidor temporário da inicialização só escuta no socket
+      test: ["CMD", "mysql", "-h", "127.0.0.1", "-ucidandrade", "-p123456", "livraria", "-e", "SELECT 1 FROM precos LIMIT 1"]
+      interval: 5s
+      retries: 20
