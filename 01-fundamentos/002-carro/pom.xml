@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>br.com.cidandrade</groupId>
+        <artifactId>curso-java</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>aula-002-carro</artifactId>
+    <name>002-carro</name>
+    <description>Origem: https://github.com/cidandrade/Codigo-002---Carro</description>
+
+    <properties>
+        <exec.mainClass>br.com.cidandrade.aulas.CarroApp</exec.mainClass>
+    </properties>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>br.com.cidandrade</groupId>
+        <artifactId>curso-java</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>aula-057-grafico</artifactId>
+    <name>057-grafico</name>
+    <description>Origem: https://github.com/cidandrade/Codigo-057---Gr-fico</description>
+
+    <properties>
+        <exec.mainClass>br.com.cidandrade.aulas.gui.GraficoGUI</exec.mainClass>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.com.cidandrade</groupId>
+            <artifactId>biblioteca</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+        </dependency>
+    </dependencies>
+</project>
