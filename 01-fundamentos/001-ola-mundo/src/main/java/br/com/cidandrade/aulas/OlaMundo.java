@@ -1,19 +1,18 @@
 package br.com.cidandrade.aulas;
 
 /**
- * Aplicação que, simplesmente, escreve "Olá, Mundo"
+ * Primeira aplicação Java: escreve "Olá, Mundo!!!"
  * na saída padrão
  *
  * @author profandrade@gmail.com
- * @version 1.0.22.10.17 Versão definitiva
- * 
+ * @version 2.0.0
  */
 public class OlaMundo {
 
     /**
      * Aplicações Java, por padrão, iniciam em um método
      * com esta assinatura
-     * @param args String[] - Vetor de parâmetros passados para o método
+     * @param args argumentos passados pela linha de comando
      */
     public static void main(String[] args) {
         System.out.println("Olá, Mundo!!!");

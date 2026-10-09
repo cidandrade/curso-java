@@ -12,6 +12,7 @@
     </parent>
 
     <artifactId>aula-001-ola-mundo</artifactId>
+    <version>2.0.0</version>
     <name>001-ola-mundo</name>
     <description>Origem: https://github.com/cidandrade/Codigo-001---Ola-Mundo</description>
 
