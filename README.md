@@ -29,7 +29,7 @@ Em cada aula, leia o código e rode o exemplo. Depois, peça a uma IA o mesmo de
 
 ## Pré-requisitos
 
-- JDK 11 ou mais recente
+- JDK 17 ou mais recente
 - Maven 3.9 ou mais recente
 - Ambiente gráfico para as aulas com janelas ou caixas de diálogo (a maioria delas)
 - Para a aula 056 (Livraria): MySQL, ou Docker para subir o banco pronto
