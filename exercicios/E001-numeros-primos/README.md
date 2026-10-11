@@ -34,7 +34,7 @@ Entrada e saída por caixas de diálogo (`JOptionPane`), por isso é preciso amb
 
 ## Navegação
 
-← [065 — Modelagem de domínio](../../10-projetando-com-ia/065-modelagem-de-dominio) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
+← [066 — Injeção de dependência](../../10-projetando-com-ia/066-injecao-de-dependencia) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
 
 ## Origem
 

@@ -71,7 +71,7 @@ Os setters públicos deixam qualquer código colocar o sócio com −1 emprésti
 
 ## 7. Duas decisões de implementação
 
-- **A data de hoje é um parâmetro.** Os métodos recebem `LocalDate hoje` em vez de chamar `LocalDate.now()` lá dentro. Assim, o teste "devolvido 3 dias depois do prazo" não precisa esperar 17 dias. A aula 066 mostra outra forma de fazer isso, injetando um relógio.
+- **A data de hoje é um parâmetro.** Os métodos recebem `LocalDate hoje` em vez de chamar `LocalDate.now()` lá dentro. Assim, o teste "devolvido 3 dias depois do prazo" não precisa esperar 17 dias. A aula [066](../066-injecao-de-dependencia) mostra outra forma de fazer isso, injetando um relógio.
 - **Só o próprio pacote muda o estado.** `Exemplar.emprestar` e `Socio.encerrar` não são públicos: o único caminho para emprestar é `socio.emprestar(...)`, que confere as regras antes.
 
 ## 8. O pedido que sai desta modelagem

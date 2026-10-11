@@ -18,7 +18,7 @@ Código que compila e roda não é, só por isso, código bem projetado. A IA ac
 | **Objetos com comportamento** | Classes que só guardam dados, enquanto a lógica que as usa fica numa classe "serviço" gigante (modelo anêmico) |
 | **Ponto de variação** | `if`/`switch` sobre tipo ou situação repetido em vários métodos, onde caberia polimorfismo ([State](../07-padroes-comportamentais/050-vida-de-gato), [Strategy](../07-padroes-comportamentais/051-caes-polimorficos)) |
 | **Herança bem usada** | Subclasse que sobrescreve um método para não fazer nada ou para lançar exceção (fere Liskov) |
-| **Dependências** | `new` de classes concretas de infraestrutura dentro da regra de negócio; impossível testar sem banco ou rede |
+| **Dependências** | `new` de classes concretas de infraestrutura dentro da regra de negócio; `LocalDate.now()` escondido; impossível testar sem banco ou rede ([066](../10-projetando-com-ia/066-injecao-de-dependencia)) |
 | **Camadas** | `JOptionPane`, `System.out` ou SQL dentro das classes de domínio ([MVC](../08-arquitetura-e-persistencia/055-mvc)) |
 | **Padrão no lugar certo** | Padrão aplicado sem o problema que o justifica, ou só o nome do padrão, sem os papéis (veja os [papéis](02-vocabulario-de-design.md#os-papéis-dos-padrões)) |
 | **Tipos adequados** | `double` para dinheiro (use `BigDecimal`, [016](../02-recursos-da-linguagem/016-matematica)); `String` para valores fechados (use `enum`, [017](../02-recursos-da-linguagem/017-enumeracao)) |

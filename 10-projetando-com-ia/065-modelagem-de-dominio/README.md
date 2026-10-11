@@ -121,4 +121,4 @@ Os testes ficam em `src/test/java`. Na IDE, use a opção de executar os testes 
 
 ## Navegação
 
-← [064 — SOLID na prática](../../10-projetando-com-ia/064-solid-na-pratica) · [Sumário do curso](../../README.md#sumário) · [E001 — Números primos](../../exercicios/E001-numeros-primos) →
+← [064 — SOLID na prática](../../10-projetando-com-ia/064-solid-na-pratica) · [Sumário do curso](../../README.md#sumário) · [066 — Injeção de dependência](../../10-projetando-com-ia/066-injecao-de-dependencia) →
