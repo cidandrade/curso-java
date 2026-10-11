@@ -140,4 +140,4 @@ Os testes ficam em `src/test/java`. Na IDE, use a opção de executar os testes 
 
 ## Navegação
 
-← [066 — Injeção de dependência](../../10-projetando-com-ia/066-injecao-de-dependencia) · [Sumário do curso](../../README.md#sumário) · [E001 — Números primos](../../exercicios/E001-numeros-primos) →
+← [066 — Injeção de dependência](../../10-projetando-com-ia/066-injecao-de-dependencia) · [Sumário do curso](../../README.md#sumário) · [068 — Projeto integrador](../../10-projetando-com-ia/068-projeto-integrador) →

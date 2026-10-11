@@ -34,7 +34,7 @@ Entrada e saída por caixas de diálogo (`JOptionPane`), por isso é preciso amb
 
 ## Navegação
 
-← [067 — Java moderno](../../10-projetando-com-ia/067-java-moderno) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
+← [068 — Projeto integrador](../../10-projetando-com-ia/068-projeto-integrador) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
 
 ## Origem
 

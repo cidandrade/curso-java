@@ -25,4 +25,6 @@ flowchart LR
 
 Quem pula a etapa B pede "faça um sistema de biblioteca" e aceita o que vier. Quem faz a etapa B consegue dizer à IA o que quer e consegue recusar o que não serve.
 
+A aula [068 — Projeto integrador](../10-projetando-com-ia/068-projeto-integrador) mostra este ciclo aplicado de verdade: quatro rodadas com uma IA, com pedidos, respostas e revisões registrados na íntegra.
+
 [← Voltar ao sumário do curso](../README.md#sumário)

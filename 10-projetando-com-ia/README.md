@@ -9,5 +9,6 @@ O que faz a diferença quando quem escreve o código é uma IA: testes como espe
 | 065 | [Modelagem de domínio](065-modelagem-de-dominio) | Do enunciado ao diagrama e às classes |
 | 066 | [Injeção de dependência](066-injecao-de-dependencia) | Injeção de dependência e interfaces, sem framework |
 | 067 | [Java moderno](067-java-moderno) | Records, sealed, pattern matching, switch como expressão e text blocks |
+| 068 | [Projeto integrador](068-projeto-integrador) | Ciclo completo com IA: especificar, pedir, revisar, testar |
 
 [← Voltar ao sumário do curso](../README.md#sumário)
