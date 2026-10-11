@@ -120,4 +120,4 @@ Os testes ficam em `src/test/java`. Na IDE, use a opção de executar os testes 
 
 ## Navegação
 
-← [062 — Serialização de Objetos](../../09-concorrencia-redes-e-io/062-serializacao-de-objetos) · [Sumário do curso](../../README.md#sumário) · [E001 — Números primos](../../exercicios/E001-numeros-primos) →
+← [062 — Serialização de Objetos](../../09-concorrencia-redes-e-io/062-serializacao-de-objetos) · [Sumário do curso](../../README.md#sumário) · [064 — SOLID na prática](../../10-projetando-com-ia/064-solid-na-pratica) →

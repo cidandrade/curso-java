@@ -28,6 +28,8 @@ A IA conhece todos estes termos e responde a eles com desenhos bem definidos. Us
 
 ## Os princípios SOLID
 
+A aula [064 — SOLID na prática](../10-projetando-com-ia/064-solid-na-pratica) mostra os cinco no mesmo código, antes e depois.
+
 | Princípio | Em uma frase | Peça assim |
 |---|---|---|
 | **S** — Responsabilidade única | Cada classe tem um só motivo para mudar | "separe o cálculo do pedido da geração da nota fiscal" |
