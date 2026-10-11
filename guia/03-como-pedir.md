@@ -12,7 +12,7 @@ Um pedido de projeto orientado a objetos funciona como uma especificação curta
 | **Desenho desejado** | O padrão ou princípio, **com o motivo** | "Use Strategy para o pagamento, para incluir formas novas sem alterar `Pedido`" |
 | **Restrições** | Versão do Java, bibliotecas permitidas e proibidas, estilo | "Java 17, sem frameworks, sem Lombok, atributos privados" |
 | **Fora do escopo** | O que não deve ser feito agora | "Sem interface gráfica e sem banco de dados por enquanto" |
-| **Como verificar** | Testes ou exemplos de entrada e saída | "Inclua testes JUnit 5: pedido vazio custa zero; dois cafés de R$ 5 custam R$ 10" |
+| **Como verificar** | Testes ou exemplos de entrada e saída ([063](../10-projetando-com-ia/063-testes-com-junit)) | "Inclua testes JUnit 5: pedido vazio custa zero; dois cafés de R$ 5 custam R$ 10" |
 | **Formato da resposta** | Como você quer receber o resultado | "Um arquivo por classe, e explique em três linhas cada decisão de design" |
 
 Não é preciso usar todas as partes em todo pedido. Mas, se você não sabe preencher uma delas, provavelmente ainda não pensou o projeto o suficiente.

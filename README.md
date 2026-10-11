@@ -13,7 +13,7 @@ Hoje uma IA escreve em segundos as classes que antes levavam horas. Este curso e
 
 O Java é a linguagem de trabalho, porque deixa a orientação a objetos explícita: o que você aprende aqui vale para qualquer linguagem e qualquer assistente de IA.
 
-São 62 aulas e 3 exercícios, cada um num módulo Maven independente com seu próprio README. Antes, cada aula ficava num repositório separado; a seção [Onde estava este código?](#onde-estava-este-código) mostra para onde foi cada um.
+São 63 aulas e 3 exercícios, cada um num módulo Maven independente com seu próprio README. Antes, cada aula ficava num repositório separado; a seção [Onde estava este código?](#onde-estava-este-código) mostra para onde foi cada um.
 
 ## Como usar este curso com uma IA
 
@@ -157,6 +157,12 @@ Muitas aulas usam a biblioteca utilitária da aula [008](02-recursos-da-linguage
 | 060 | [Servidor TCP](09-concorrencia-redes-e-io/060-servidor-tcp) | Redes: servidor TCP com sockets |
 | 061 | [Cliente TCP](09-concorrencia-redes-e-io/061-cliente-tcp) | Redes: cliente TCP com sockets |
 | 062 | [Serialização de Objetos](09-concorrencia-redes-e-io/062-serializacao-de-objetos) | Serialização |
+
+### [Projetando com IA](10-projetando-com-ia)
+
+| Nº | Aula | Tema/Padrão |
+|---|---|---|
+| 063 | [Testes com JUnit](10-projetando-com-ia/063-testes-com-junit) | Testes automatizados como especificação |
 
 ### [Exercícios](exercicios)
 

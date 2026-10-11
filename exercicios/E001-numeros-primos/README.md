@@ -34,7 +34,7 @@ Entrada e saída por caixas de diálogo (`JOptionPane`), por isso é preciso amb
 
 ## Navegação
 
-← [062 — Serialização de Objetos](../../09-concorrencia-redes-e-io/062-serializacao-de-objetos) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
+← [063 — Testes com JUnit](../../10-projetando-com-ia/063-testes-com-junit) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
 
 ## Origem
 

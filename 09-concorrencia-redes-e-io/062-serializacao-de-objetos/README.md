@@ -38,7 +38,7 @@ A saída aparece em caixas de diálogo (`JOptionPane`), por isso é preciso ambi
 
 ## Navegação
 
-← [061 — Cliente TCP](../../09-concorrencia-redes-e-io/061-cliente-tcp) · [Sumário do curso](../../README.md#sumário) · [E001 — Números primos](../../exercicios/E001-numeros-primos) →
+← [061 — Cliente TCP](../../09-concorrencia-redes-e-io/061-cliente-tcp) · [Sumário do curso](../../README.md#sumário) · [063 — Testes com JUnit](../../10-projetando-com-ia/063-testes-com-junit) →
 
 ## Origem
 

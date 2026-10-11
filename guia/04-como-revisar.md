@@ -4,7 +4,7 @@ Código que compila e roda não é, só por isso, código bem projetado. A IA ac
 
 ## Primeiro: faz o que foi pedido?
 
-- [ ] Rode o código. Se houver testes, rode os testes; se não houver, peça-os.
+- [ ] Rode o código. Se houver testes, rode os testes; se não houver, peça-os (veja [063 — Testes com JUnit](../10-projetando-com-ia/063-testes-com-junit)).
 - [ ] Confira se **todas** as regras do pedido foram atendidas. A IA às vezes simplifica uma regra sem avisar.
 - [ ] Teste os casos de borda: lista vazia, valor zero ou negativo, `null`, texto em branco.
 - [ ] Desconfie de qualquer coisa que você não pediu: bibliotecas extras, classes "auxiliares", funcionalidades a mais.
