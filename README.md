@@ -3,9 +3,29 @@
 [![Build](https://github.com/cidandrade/curso-java/actions/workflows/build.yml/badge.svg)](https://github.com/cidandrade/curso-java/actions/workflows/build.yml)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg)](LICENSE)
 
-Código das aulas de Java do Prof. Cid Andrade: fundamentos, orientação a objetos, coleções, interface gráfica, os padrões de projeto GoF, persistência, concorrência e redes.
+Aulas de orientação a objetos em Java do Prof. Cid Andrade.
+
+Hoje uma IA escreve em segundos as classes que antes levavam horas. Este curso ensina o que ela não faz por você: **pensar o projeto**. O objetivo não é só aprender Java, e sim aprender a pensar em objetos para:
+
+1. **reconhecer o problema de design** que o seu sistema tem;
+2. **descrevê-lo com o vocabulário certo** (classes, responsabilidades, interfaces, padrões de projeto) num pedido à IA;
+3. **revisar o código que a IA entrega** e saber se ele está bem projetado.
+
+O Java é a linguagem de trabalho, porque deixa a orientação a objetos explícita: o que você aprende aqui vale para qualquer linguagem e qualquer assistente de IA.
 
 São 62 aulas e 3 exercícios, cada um num módulo Maven independente com seu próprio README. Antes, cada aula ficava num repositório separado; a seção [Onde estava este código?](#onde-estava-este-código) mostra para onde foi cada um.
+
+## Como usar este curso com uma IA
+
+Comece pelo [guia](guia), que reúne o que vale para o curso todo:
+
+1. [Pensar em objetos](guia/01-pensar-em-objetos.md): do enunciado às classes.
+2. [Vocabulário de design](guia/02-vocabulario-de-design.md): os termos que fazem a IA entender o que você quer.
+3. [Como pedir](guia/03-como-pedir.md): a anatomia de um bom pedido de projeto orientado a objetos.
+4. [Como revisar](guia/04-como-revisar.md): o que conferir no código gerado.
+5. [Mapa problema → padrão](guia/05-mapa-problema-padrao.md): do problema que você reconhece ao padrão que você pede.
+
+Em cada aula, leia o código e rode o exemplo. Depois, peça a uma IA o mesmo desenho com suas próprias palavras e compare o resultado com o da aula. As aulas já revisadas trazem também o problema de design, um diagrama de classes, um exemplo de pedido e uma lista do que revisar.
 
 ## Pré-requisitos
 

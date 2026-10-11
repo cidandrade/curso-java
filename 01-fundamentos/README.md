@@ -1,6 +1,6 @@
 # Fundamentos
 
-Primeiro contato com Java e com a orientação a objetos: estrutura de um programa, classes e objetos, herança, interfaces, tipos de dados, vetores e entrada e saída.
+Como pensar um programa como objetos que guardam estado e oferecem comportamento. Aqui nasce o vocabulário básico para conversar com uma IA sobre design: classe, objeto, atributo, método, encapsulamento, herança e interface. Também aparecem os tipos de dados, os vetores e a entrada e saída.
 
 | Nº | Aula | Tema |
 |---|---|---|

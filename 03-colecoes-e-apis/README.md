@@ -1,6 +1,6 @@
 # Coleções e APIs
 
-As coleções do Java (`Set`, `List`, `Map`), a API de datas `java.time`, expressões lambda e generics.
+Como escolher a estrutura certa para um grupo de objetos (`Set`, `List` ou `Map`) e como usar a API `java.time`, expressões lambda e generics. Pedir "uma lista" ou "um mapa por código" muda o desenho que a IA entrega.
 
 | Nº | Aula | Tema |
 |---|---|---|

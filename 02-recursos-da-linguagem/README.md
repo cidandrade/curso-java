@@ -1,6 +1,6 @@
 # Recursos da linguagem
 
-Recursos do Java usados no resto do curso: a biblioteca utilitária própria, POJOs e Lombok, `String`, estruturas de controle, classes aninhadas, a classe `Math` e enumerações.
+Os recursos do Java que dão forma às classes: POJOs e Lombok, `String`, estruturas de controle, classes aninhadas, a classe `Math`, enumerações e uma biblioteca utilitária própria. Conhecer esses recursos ajuda a reconhecer no código gerado por uma IA quando cada um faz sentido e quando é excesso.
 
 | Nº | Aula | Tema |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Interface gráfica e integração
 
-Aplicações com janelas Swing construídas no GUI Builder do NetBeans e consumo de um serviço web.
+Como separar a janela da lógica e como integrar um serviço externo. Os exemplos usam Swing, com janelas feitas no GUI Builder do NetBeans, e o consumo de um serviço web.
 
 | Nº | Aula | Tema |
 |---|---|---|

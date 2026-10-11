@@ -1,6 +1,6 @@
 # Concorrência, redes e E/S
 
-Threads, comunicação por sockets TCP e serialização de objetos.
+Objetos que trabalham ao mesmo tempo, conversam pela rede ou são gravados e lidos de arquivo: threads, sockets TCP e serialização. São temas em que o código gerado por IA costuma falhar em silêncio, por isso a revisão é ainda mais importante.
 
 | Nº | Aula | Tema |
 |---|---|---|

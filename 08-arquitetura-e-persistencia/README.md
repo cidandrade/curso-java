@@ -1,6 +1,6 @@
 # Arquitetura e persistência
 
-Organização de aplicações em camadas (MVC), acesso a banco de dados com JDBC e uso de bibliotecas externas.
+Como organizar uma aplicação inteira: separar modelo, visão e controle (MVC), isolar o acesso ao banco atrás de DAOs e integrar bibliotecas externas. É o nível de desenho que se descreve à IA antes de pedir qualquer classe.
 
 | Nº | Aula | Tema |
 |---|---|---|
