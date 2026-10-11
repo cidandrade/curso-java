@@ -8,5 +8,6 @@ O que faz a diferença quando quem escreve o código é uma IA: testes como espe
 | 064 | [SOLID na prática](064-solid-na-pratica) | Os cinco princípios SOLID: antes e depois |
 | 065 | [Modelagem de domínio](065-modelagem-de-dominio) | Do enunciado ao diagrama e às classes |
 | 066 | [Injeção de dependência](066-injecao-de-dependencia) | Injeção de dependência e interfaces, sem framework |
+| 067 | [Java moderno](067-java-moderno) | Records, sealed, pattern matching, switch como expressão e text blocks |
 
 [← Voltar ao sumário do curso](../README.md#sumário)

@@ -117,4 +117,4 @@ Os testes ficam em `src/test/java`. Na IDE, use a opção de executar os testes 
 
 ## Navegação
 
-← [065 — Modelagem de domínio](../../10-projetando-com-ia/065-modelagem-de-dominio) · [Sumário do curso](../../README.md#sumário) · [E001 — Números primos](../../exercicios/E001-numeros-primos) →
+← [065 — Modelagem de domínio](../../10-projetando-com-ia/065-modelagem-de-dominio) · [Sumário do curso](../../README.md#sumário) · [067 — Java moderno](../../10-projetando-com-ia/067-java-moderno) →

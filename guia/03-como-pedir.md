@@ -50,7 +50,7 @@ O que costuma vir: uma classe `Cafeteria` com `main`, `ArrayList` de `String`, p
 
 - Nomear um padrão sem o problema pode gerar um padrão onde ele não faz sentido. Diga sempre **por que** você quer o padrão.
 - A IA pode afirmar que aplicou um padrão sem tê-lo aplicado. Confira os papéis no código (veja a tabela de papéis no [capítulo 2](02-vocabulario-de-design.md#os-papéis-dos-padrões)).
-- Peça a versão do Java explicitamente. Sem isso, a IA pode misturar recursos de versões diferentes.
+- Peça a versão do Java explicitamente. Sem isso, a IA pode misturar recursos de versões diferentes (veja [067 — Java moderno](../10-projetando-com-ia/067-java-moderno)).
 
 ---
 
