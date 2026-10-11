@@ -34,7 +34,7 @@ Entrada e saída por caixas de diálogo (`JOptionPane`), por isso é preciso amb
 
 ## Navegação
 
-← [064 — SOLID na prática](../../10-projetando-com-ia/064-solid-na-pratica) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
+← [065 — Modelagem de domínio](../../10-projetando-com-ia/065-modelagem-de-dominio) · [Sumário do curso](../../README.md#sumário) · [E002 — Temperatura](../../exercicios/E002-temperatura) →
 
 ## Origem
 

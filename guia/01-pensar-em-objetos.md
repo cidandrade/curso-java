@@ -59,6 +59,7 @@ classDiagram
 - [002 — Carro](../01-fundamentos/002-carro): classe, estado e comportamento.
 - [003 — Herança](../01-fundamentos/003-heranca) e [004 — Interface](../01-fundamentos/004-interface): "é um" com e sem implementação.
 - [051 — Cães Polimórficos](../07-padroes-comportamentais/051-caes-polimorficos): composição em vez de herança para o que varia.
+- [065 — Modelagem de domínio](../10-projetando-com-ia/065-modelagem-de-dominio): este método aplicado do começo ao fim, numa biblioteca de bairro.
 
 ---
 

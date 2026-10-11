@@ -96,6 +96,7 @@
         <module>09-concorrencia-redes-e-io/062-serializacao-de-objetos</module>
         <module>10-projetando-com-ia/063-testes-com-junit</module>
         <module>10-projetando-com-ia/064-solid-na-pratica</module>
+        <module>10-projetando-com-ia/065-modelagem-de-dominio</module>
         <module>exercicios/E001-numeros-primos</module>
         <module>exercicios/E002-temperatura</module>
         <module>exercicios/E003-triangulo</module>
