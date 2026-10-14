@@ -114,7 +114,7 @@ void main() {
 Três observações:
 
 - O código Java 17 compila e roda sem mudança no JDK 25: as versões novas mantêm a compatibilidade com as anteriores.
-- O caminho inverso não funciona. Em Java 17, o arquivo compacto nem compila (`implicitly declared classes are not supported in -source 17`). No Java 21, ele só funciona como recurso em prévia, com `--enable-preview`.
+- O caminho inverso não funciona. Em Java 17, o arquivo compacto nem compila (`implicitly declared classes are not supported in -source 17`). Do Java 21 ao 24, o `void main()` sem classe só existe como recurso em prévia (`--enable-preview`), e a classe `IO` só aparece no Java 23, ainda em prévia e em outro pacote (`java.io.IO`). Por isso, este arquivo exige o Java 25.
 - Para executar a versão Java 25, use um JDK 25 ou mais recente, na raiz do repositório: `java 01-fundamentos/001-ola-mundo/java25/OlaMundo.java`. O comando `java` compila o arquivo na memória e o executa. Esse modo de rodar um arquivo-fonte existe desde o Java 11.
 
 ## Como pedir à IA
@@ -136,7 +136,7 @@ Ao receber o código da IA, confira:
 
 - [ ] O nome da classe pública é igual ao nome do arquivo (`OlaMundo` em `OlaMundo.java`)
 - [ ] A declaração `package` corresponde à pasta (`src/main/java/br/com/cidandrade/aulas`)
-- [ ] A assinatura é `public static void main(String[] args)`. O `void main()` sem classe só existe como prévia no Java 21 e é definitivo a partir do Java 25; em Java 17, não compila
+- [ ] A assinatura é `public static void main(String[] args)`. O `void main()` sem classe só existe como prévia do Java 21 ao 24 e é definitivo a partir do Java 25; em Java 17, não compila
 - [ ] Não vieram dependências nem frameworks (Spring Boot, por exemplo) para um programa de uma linha
 - [ ] O código compila e roda com o comando do projeto (`mvn -q -pl 01-fundamentos/001-ola-mundo exec:java`)
 
