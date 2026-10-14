@@ -3,10 +3,11 @@ package br.com.cidandrade.aulas;
 import br.com.cidandrade.aulas.classes.Carro;
 
 /**
- * Aplicação de exemplo sobre classes
+ * Aplicação de exemplo sobre classes: cria dois carros e mostra que
+ * cada objeto guarda o seu próprio estado
  *
- * @author cidandrade
- * @version 1.0.22.10.17 Versão definitiva
+ * @author profandrade@gmail.com
+ * @version 2.0.0
  */
 public class CarroApp {
 
@@ -23,7 +24,10 @@ public class CarroApp {
         carro1.frear(10);
         carro1.mudarMarcha(5);
         carro1.aumentarVelocidade(40);
-        carro1.imprimirEstadoDoCarro();
+        System.out.println(carro1);
+        // Experimente: descomente a linha abaixo. O carro está a 120 km/h, então
+        // o objeto recusa a ré e o programa para com uma IllegalStateException
+        // carro1.mudarMarcha(-1);
 
         Carro carro2 = new Carro();
         carro2.mudarMarcha(1);
@@ -37,7 +41,13 @@ public class CarroApp {
         carro2.frear(15);
         carro2.mudarMarcha(5);
         carro2.aumentarVelocidade(30);
-        carro2.imprimirEstadoDoCarro();
+        System.out.println(carro2);
+
+        // Para engatar a ré, o carro precisa estar parado
+        carro2.frear(80);
+        carro2.mudarMarcha(-1);
+        carro2.aumentarVelocidade(5);
+        System.out.println(carro2);
     }
 
 }
